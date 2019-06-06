@@ -8,10 +8,10 @@ meta =
 
     -- Name of your mod; You may want this to be unique, but it's not absolutely necessary.
     -- This is an additional helper attribute for you to easily identify your mod in the Mods() list
-    name = "Only Raw Mining",
+    name = "Only Raw Lasers",
 
     -- Title of your mod that will be displayed to players
-    title = "Laserzwei's Only Raw Mininglasers",
+    title = "Laserzwei's Only Raw Lasers",
 
     -- Description of your mod that will be displayed to players
     description = "This mod disables direct mining and salvaging of ores.",
@@ -44,6 +44,8 @@ meta =
 
     -- Set to true if the mod only has to run on the server. Clients will get notified that the mod is running on the server, but they won't download it to themselves
     serverSideOnly = false,
+    clientSideOnly = false,
+    saveGameAltering = false,
 
     -- Contact info for other users to reach you in case they have questions
     contact = "lasernr2@gmail.com",
