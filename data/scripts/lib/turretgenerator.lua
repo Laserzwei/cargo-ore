@@ -8,7 +8,7 @@ function TurretGenerator.generateSeeded(seed, weaponType, dps, tech, rarity, mat
         weaponType = WeaponType.RawSalvagingLaser
     end
 
-    if localGameVersion.major >= 0 and localGameVersion.minor >= 29 then
+    if localGameVersion.major >= 1 or (localGameVersion.major >= 0 and localGameVersion.minor >= 29) then
         return TurretGenerator.generateTurret(Random(seed), weaponType, dps, tech, material, rarity)
     else
         local secured = rand
